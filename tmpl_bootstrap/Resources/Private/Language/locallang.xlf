@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+<file source-language="es-ES" datatype="plaintext" original="messages" product-name="tmpl_bootstrap">
+	<header/>
+	<body>
+		<trans-unit id="template.footer.design" approved="yes" xml:space="preserve">
+            <source>Diseño</source>
+         </trans-unit>
+	</body>
+</file>
+</xliff>

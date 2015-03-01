@@ -1,0 +1,12 @@
+<f:render partial="Header" />
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 main">
+			<f:cObject typoscriptObjectPath="lib.submenu"/>
+			<article role="content">
+				{content -> f:format.raw()}
+			</article>
+		</div>
+	</div>
+</div>
