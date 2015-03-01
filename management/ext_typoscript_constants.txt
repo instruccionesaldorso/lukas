@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management/Configuration/TypoScript/Constants.ts">

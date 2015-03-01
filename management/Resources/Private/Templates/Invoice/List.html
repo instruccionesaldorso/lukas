@@ -1,0 +1,23 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<f:render partial="New" />
+
+<dl class="accordion" data-accordion>
+	<f:for each="{invoices}" as="invoice" key="number">
+		<dd>
+			<f:link.action section="panel{number}">
+				{invoice.customerId} {invoice.date -> f:format.date()} {invoice.amount} /
+				<f:for each="{invoice.jobs}" as="job">
+					({job.end} - {job.start} / 60) * {invoice.rate.percentage}
+				</f:for>
+			</f:link.action>
+			<div id="panel{number}" class="content">
+				<f:render partial="Invoice/Properties" arguments="{invoice:invoice}" />
+			</div>
+		</dd>
+	</f:for>
+</dl>
+
+</f:section>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-19T12:40:01Z" product-name="management">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_management_domain_model_customer">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_customer.internal_id">
+				<source>Internal Id</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_customer.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_customer.surname">
+				<source>Surname</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_customer.companies">
+				<source>Companies</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.department">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.contact">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_company.internal_comments">
+				<source>Internal Comments</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_job">
+				<source>Job</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.start">
+				<source>Start</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.job_start">
+				<source>Job Start</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.job_end">
+				<source>Job End</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.end">
+				<source>End</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.customer">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.fees">
+				<source>Fees</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_job.trip_excluded">
+				<source>Trip Excluded</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_invoice">
+				<source>Invoice</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.customer_id">
+				<source>Customer Id</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.amount">
+				<source>Amount</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.payment_date">
+				<source>Payment Date</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.jobs">
+				<source>Jobs</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.tax">
+				<source>Tax</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.rate">
+				<source>Rate</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_invoice.modality">
+				<source>Modality</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_tax">
+				<source>Tax</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_tax.percentage">
+				<source>Percentage</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_rate">
+				<source>Rate</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_rate.price">
+				<source>Price</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_location.title">
+				<source>Title of the job</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_location.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_location.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_location.zip">
+				<source>Zip</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_location.city">
+				<source>City</source>
+			</trans-unit>
+
+			<trans-unit id="tx_management_domain_model_fee">
+				<source>Fee</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_fee.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_fee.quantity">
+				<source>Quantity</source>
+			</trans-unit>
+			<trans-unit id="tx_management_domain_model_fee.price">
+				<source>Price</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.flexform_pi1.management.sDEF">
+				<source>Main Settings</source>
+			</trans-unit>
+			<trans-unit id="tt_content.flexform_pi1.management.sDEF.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tt_content.flexform_pi1.management.sDEF.type.all">
+				<source>All</source>
+			</trans-unit>
+			<trans-unit id="tt_content.flexform_pi1.management.sDEF.type.paid">
+				<source>Paid</source>
+			</trans-unit>
+			<trans-unit id="tt_content.flexform_pi1.management.sDEF.type.pending">
+				<source>Pending</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
